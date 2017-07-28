@@ -1,11 +1,11 @@
 ### 简介
-VLC官网：**http://www.videolan.org/vlc/**
+VLC官网：<font color=#0099ff>http://www.videolan.org/vlc/</font>
 
 VLC不仅可以作为播放器，还可以作为流媒体服务器使用。
 
 ### 用VLC搭建基于RTSP的流媒体服务器
 #### 一、搭建流媒体服务器
-1.打开VLC，选择**"媒体 -> 流"**
+1.打开VLC，选择"<font color=#0099ff>媒体 -> 流</font>"
 
 ![](/images/1.png)
 
@@ -17,7 +17,7 @@ VLC不仅可以作为播放器，还可以作为流媒体服务器使用。
 
 ![](/images/3.png)
 
-4.选择**"RTSP"**，点"添加"
+4.选择"<font color=#0099ff>RTSP</font>"，点"添加"
 
 ![](/images/4.png)
 
@@ -25,7 +25,7 @@ VLC不仅可以作为播放器，还可以作为流媒体服务器使用。
 
 ![](/images/5.png)
 
-6.选择**"Video - H.264 + MP3 (MP4)"**，点"下一个"
+6.选择"<font color=#0099ff>Video - H.264 + MP3 (MP4)</font>"，点"下一个"
 
 ![](/images/6.png)
 
@@ -33,17 +33,17 @@ VLC不仅可以作为播放器，还可以作为流媒体服务器使用。
 
 ![](/images/7.png)
 
-8.如果VLC的标题栏显示**"流"**，就说明流服务器已经搭建成功
+8.如果VLC的标题栏显示"<font color=#0099ff>流</font>"，就说明流服务器已经搭建成功
 
 ![](/images/8.png)
 
 #### 二、客户端播放视频
 
-1.打开VLC作为视频播放器的客户端，选择**"媒体 -> 打开网络串流"**
+1.打开VLC作为视频播放器的客户端，选择"<font color=#0099ff>媒体 -> 打开网络串流</font>"
 
 ![](/images/9.png)
 
-2.选择"网络"，输入网络URL**"rtsp://127.0.0.1:8554/stream"**，其中，**8554**和**stream**是在搭建RTSP流媒体服务器时填写的**端口号**和**路径**，点击"播放"
+2.选择"网络"，输入网络URL"<font color=#0099ff>rtsp://127.0.0.1:8554/stream</font>"，其中，<font color=#0099ff>8554</font>和<font color=#0099ff>stream</font>是在搭建RTSP流媒体服务器时填写的<font color=#0099ff>端口号</font>和<font color=#0099ff>路径</font>，点击"播放"
 
 ![](/images/10.png)
 
